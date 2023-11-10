@@ -25,3 +25,8 @@
 .img-box img {
   width: 100%;
 }
+
+.img-wrap {
+  left: 0;
+  top: 0;
+}
