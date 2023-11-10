@@ -9,4 +9,5 @@ originalImg.style.width = ImgBox.offsetWidth + "px";
 ImgBox.onmousemove = function (e) {
   let boxWidth = e.pageX - leftSpace + "px";
   ImgWrap.style.width = boxWidth;
+  line.style.left = boxWidth;
 };
